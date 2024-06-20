@@ -4,8 +4,6 @@ var accountPassword = "1234"
 accountCity = "Sangli"
 let accountState;
 
-
-
 // acId= 2 // not allowed
 
 accountEmnail = "Bugbuster@spy.in"
@@ -22,5 +20,6 @@ console.table([accountId, accountEmnail, accountPassword, accountCity, accountSt
         It's generally recommended to use let or const for better code clarity and maintainability.
     Perfer not use "Var" as the issue with var for the scope and functional scope
     If we decalre variable without adding value or initialization it will give "undefined" message
+
 */
  
