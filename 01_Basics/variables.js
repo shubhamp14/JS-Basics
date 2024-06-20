@@ -4,8 +4,6 @@ var accountPassword = "1234"
 accountCity = "Sangli"
 let accountState;
 
-//Perfer not use "Var" as the issue with var for the scope and functional scope
-// If we decalre variable without adding value or initialization it will give "undefined" message
 
 
 // acId= 2 // not allowed
@@ -22,5 +20,7 @@ console.table([accountId, accountEmnail, accountPassword, accountCity, accountSt
     Use let when you need to reassign a variable within its block scope.
     Avoid using var in modern JavaScript due to its potential scoping issues. 
         It's generally recommended to use let or const for better code clarity and maintainability.
+    Perfer not use "Var" as the issue with var for the scope and functional scope
+    If we decalre variable without adding value or initialization it will give "undefined" message
 */
  
