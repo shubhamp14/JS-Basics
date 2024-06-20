@@ -16,3 +16,11 @@ accountCity = "Pune"
 
 console.log(accountId);
 console.table([accountId, accountEmnail, accountPassword, accountCity, accountState])
+
+/*In summary:
+    Use const by default for variables that shouldn't change their value.
+    Use let when you need to reassign a variable within its block scope.
+    Avoid using var in modern JavaScript due to its potential scoping issues. 
+        It's generally recommended to use let or const for better code clarity and maintainability.
+*/
+ 
